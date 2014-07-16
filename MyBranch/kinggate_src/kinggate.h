@@ -8,6 +8,7 @@ class PEACH
 public:
 	void buy(int num);
 	void pick(DWORD dwNum);
+	DWORD leave();
 
 protected:
 private:

@@ -13,3 +13,8 @@ void PEACH::pick(DWORD dwNum)
 {
 	m_dwTotalNum -= dwNum;
 }
+
+DWORD PEACH::leave()
+{
+	return m_dwTotalNum;
+}
