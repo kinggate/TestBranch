@@ -7,9 +7,10 @@ class PEACH
 {
 public:
 	void buy(int num);
+	void pick(DWORD dwNum);
 
 protected:
 private:
-
+	DWORD m_dwTotalNum;
 };
 

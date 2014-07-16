@@ -8,3 +8,8 @@ void PEACH::buy(int num)
 {
 
 }
+
+void PEACH::pick(DWORD dwNum)
+{
+	m_dwTotalNum -= dwNum;
+}
