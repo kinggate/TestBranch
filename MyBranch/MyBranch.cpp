@@ -4,6 +4,8 @@
 #include "stdafx.h"
 #include "MyBranch.h"
 
+#include "likangbao_src/likangbao.h"
+
 #define MAX_LOADSTRING 100
 
 // 全局变量:
@@ -47,6 +49,9 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	char *str3 = "str3 defined by kinggate";  //add by kinggate
 
 	char *str_base = "str defined"; //for rebase
+
+	APPLE myapple;
+	myapple.eat();
 
 	// 主消息循环:
 	while (GetMessage(&msg, NULL, 0, 0))
