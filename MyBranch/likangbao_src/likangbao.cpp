@@ -8,3 +8,8 @@ void APPLE::eat()
 {
 
 }
+
+void APPLE::sale(int num)
+{
+	m_sale_num = num;
+}
