@@ -13,3 +13,8 @@ void APPLE::sale(int num)
 {
 	m_sale_num = num;
 }
+
+BOOL APPLE::save()
+{
+	return TRUE;
+}
