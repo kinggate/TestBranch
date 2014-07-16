@@ -42,6 +42,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 	hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_MYBRANCH));
 
+	char *str = "str defined by kinggate"; //add by kinggate
+
 	// 主消息循环:
 	while (GetMessage(&msg, NULL, 0, 0))
 	{
