@@ -6,7 +6,8 @@
 class PEACH
 {
 public:
-	
+	void buy(int num);
+
 protected:
 private:
 
