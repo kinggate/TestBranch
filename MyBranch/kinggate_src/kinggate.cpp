@@ -4,3 +4,7 @@
 #include "stdafx.h"
 #include "kinggate.h"
 
+void PEACH::buy(int num)
+{
+
+}
