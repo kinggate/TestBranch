@@ -171,15 +171,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-<<<<<<< HEAD
-				RelativePath=".\likangbao_src\likangbao.cpp"
-=======
-				RelativePath=".\GlobalFunc.cpp"
+				RelativePath=".\likangbao_src\likangbao.cpp"				
 				>
 			</File>
 			<File
-				RelativePath=".\kinggate_src\kinggate.cpp"
->>>>>>> 1b55490... add global cpp source
+				RelativePath=".\GlobalFunc.cpp"
 				>
 			</File>
 			<File
@@ -213,15 +209,11 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-<<<<<<< HEAD
-				RelativePath=".\likangbao_src\likangbao.h"
-=======
-				RelativePath=".\GlobalFunc.h"
+				RelativePath=".\likangbao_src\likangbao.h"				
 				>
 			</File>
 			<File
-				RelativePath=".\kinggate_src\kinggate.h"
->>>>>>> 1b55490... add global cpp source
+				RelativePath=".\GlobalFunc.h"
 				>
 			</File>
 			<File
