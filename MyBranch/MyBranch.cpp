@@ -50,6 +50,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 	char *str4 = "str4 add to branch master"; //add this on master
 
+	char *str5 = "str5 add to master";
+
 	// 主消息循环:
 	while (GetMessage(&msg, NULL, 0, 0))
 	{
