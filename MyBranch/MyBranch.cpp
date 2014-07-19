@@ -53,6 +53,9 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	APPLE myapple;
 	myapple.eat();
 
+	APPLE myapple;
+	myapple.eat();
+
 	// 主消息循环:
 	while (GetMessage(&msg, NULL, 0, 0))
 	{
