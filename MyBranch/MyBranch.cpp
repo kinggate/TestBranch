@@ -50,6 +50,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 
 	APPLE myapple;
 	myapple.eat();
+	char *str_base = "str defined"; //for rebase
+	char *str4 = "str4 add to branch master"; //add this on master
 
 	// 主消息循环:
 	while (GetMessage(&msg, NULL, 0, 0))
