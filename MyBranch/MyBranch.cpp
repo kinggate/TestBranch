@@ -46,6 +46,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	char *str2 = "str2 defined by kinggate";  //add by kinggate
 	char *str3 = "str3 defined by kinggate";  //add by kinggate
 
+	char *str_base = "str defined"; //for rebase
+
 	// 主消息循环:
 	while (GetMessage(&msg, NULL, 0, 0))
 	{
