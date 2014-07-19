@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "kinggate.h"
+#include "stdio.h"
 
 void PEACH::buy(int num)
 {
@@ -17,4 +18,9 @@ void PEACH::pick(DWORD dwNum)
 DWORD PEACH::leave()
 {
 	return m_dwTotalNum;
+}
+
+void PEACH::test()
+{
+	printf("kkkkk");
 }
